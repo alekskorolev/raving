@@ -1,9 +1,31 @@
 {
-  "name": "Raving",
-  "version": "0.2.0",
+  "name": "raving",
   "description": "Content management system Raving",
+  "version": "0.2.0",
+  "homepage": "https://github.com/alekskorolev/raving",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alekskorolev/raving.git"
+  },
+  "author": {
+    "name": "SERP team",
+    "email": "contact@serpteam.ru",
+    "url": "http://serpteam.ru/"
+  },
+  "tags": [
+    "raving",
+    "cms"
+  ],
+  "files": [
+    "tasks",
+    "lib",
+    "bin",
+    "distr"
+  ],
+	"bin": {
+		"raving": "./bin/raving"
+	}
   "scripts": {},
-  "author": "SERP team",
   "dependencies": {
 		"commander": "latest",
 		"node-zip": "latest",
@@ -22,5 +44,18 @@
   },
   "devDependencies": {
   },
-	"bin": "./bin/raving"
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/gulpjs/gulp/master/LICENSE"
+    }
+  ],
+  "gitHead": "7cd0eb15ebf994ef545ec2f635a9aca0ac68676f",
+  "bugs": {
+    "url": "https://github.com/gulpjs/gulp/issues"
+  }
 }
