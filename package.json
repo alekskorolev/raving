@@ -1,0 +1,26 @@
+{
+  "name": "Raving",
+  "version": "0.2.0",
+  "description": "Content management system Raving",
+  "scripts": {},
+  "author": "SERP team",
+  "dependencies": {
+		"commander": "latest",
+		"node-zip": "latest",
+		"gulp": "latest",
+		"gulp-browserify": "latest",
+		"gulp-ng-annotate": "latest",
+		"gulp-uglify": "latest",
+		"log4js": "latest",
+		"through2": "latest",
+		"gulp-concat": "latest",
+		"gulp-angular-templates": "latest",
+		"gulp-minify-html": "latest",
+		"gulp-less": "latest",
+		"less-plugin-clean-css": "latest",
+		"gulp-nodemon": "latest"
+  },
+  "devDependencies": {
+  },
+	"bin": "./bin/raving"
+}

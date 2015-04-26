@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+/***********************************************/
+/*   command line utility to work with         */
+/*   the project raving                        */
+/*   see more in ../lib/index.js               */
+/***********************************************/
+
+require('../lib/index')();
