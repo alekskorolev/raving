@@ -24,7 +24,7 @@
   ],
 	"bin": {
 		"raving": "./bin/raving"
-	}
+	},
   "scripts": {},
   "dependencies": {
 		"commander": "latest",
